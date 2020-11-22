@@ -6,6 +6,8 @@ TIME_STEP = 64
 
 compass = Compass()
 
+
+compass = robot.getCompass('compass')
 compass.enable(TIME_STEP)
 
 robot = Robot()
